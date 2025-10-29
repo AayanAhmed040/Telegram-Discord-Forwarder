@@ -1,0 +1,5 @@
+.env
+__pycache__/
+session_test.session
+*.session
+downloads/
