@@ -72,8 +72,13 @@ Here's how to get the bot running for yourself.
     TELEGRAM_API_HASH="YOUR_TELEGRAM_API_HASH_HERE"
     DISCORD_TOKEN="YOUR_DISCORD_BOT_TOKEN_HERE"
     ```
+4. Create an empty `channels.json` file in the main folder:
+    ```json
+    {}
+    ```
+    *Note: Current uploaded channels.json is just an example with no real ID's or webhooks used. You can also delete the current data and use the example file*
 
-4.  Run the bot
+5.  Run the bot
     ```bash
     python run.py
     ```
